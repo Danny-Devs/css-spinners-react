@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Danny-Devs/css-spinners-react.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react", "css", "spinners"],
+  "author": "Daniel Ahn",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Danny-Devs/css-spinners-react/issues"
   },
