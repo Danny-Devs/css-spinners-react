@@ -4,17 +4,32 @@
   "description": "CSS-only spinners in React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "prettier-eslint '**/*.js' --write"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Danny-Devs/css-spinners-react.git"
   },
-  "keywords": ["react", "css", "spinners"],
+  "keywords": [
+    "react",
+    "css",
+    "spinners"
+  ],
   "author": "Daniel Ahn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Danny-Devs/css-spinners-react/issues"
   },
-  "homepage": "https://github.com/Danny-Devs/css-spinners-react#readme"
+  "homepage": "https://github.com/Danny-Devs/css-spinners-react#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0"
+  }
 }
